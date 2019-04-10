@@ -1,0 +1,29 @@
+{
+    "benchmark_version": {
+        "benchmarks.AppsheetAutoMLSuite.track_concrete": "df59522dae5a3e0e1baa661ce501d30623547594c74fb081279d70f5b5b0eafc"
+    },
+    "commit_hash": "32f5bc13f440c3fb8cce9e9e7229cac8bb24c6f1",
+    "date": 1554747324000,
+    "ended_at": {
+        "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935980144
+    },
+    "env_name": "virtualenv-py3.5",
+    "params": {
+        "arch": "AMD64",
+        "cpu": "",
+        "machine": "DESKTOP-DF1QLOM",
+        "os": "Windows 10",
+        "python": "3.5",
+        "ram": ""
+    },
+    "profiles": {},
+    "python": "3.5",
+    "requirements": {},
+    "results": {
+        "benchmarks.AppsheetAutoMLSuite.track_concrete": 8.41897918645618
+    },
+    "started_at": {
+        "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935963879
+    },
+    "version": 1
+}

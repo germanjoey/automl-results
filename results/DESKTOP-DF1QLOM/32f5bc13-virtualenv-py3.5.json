@@ -1,0 +1,85 @@
+{
+    "benchmark_version": {
+        "benchmarks.MemSuite.mem_list": "abe86bab484550a681c61d7bb6eb081fbd37eb6d5009eba1df85c935530577b9",
+        "benchmarks.TimeSuite.time_iterkeys": "8cbbcf6e9f798af859479108fa2aedee542bd626e61d71f54acd8a0d6300e6e6",
+        "benchmarks.TimeSuite.time_keys": "86e015a3c40c52da31e4185fff7c7176c38c5e1e1e4aba71912db0b388225191",
+        "benchmarks.TimeSuite.time_range": "cc3e85248a6284df968bcf8afe866da285261eb2487c10e9dd9e2d17a05deb47",
+        "benchmarks.TimeSuite.time_xrange": "473d76d807f9873b39e527c0d0c3794e8e30e367afdf2614cb2ab190b5e120c1"
+    },
+    "commit_hash": "32f5bc13f440c3fb8cce9e9e7229cac8bb24c6f1",
+    "date": 1554747324000,
+    "ended_at": {
+        "benchmarks.MemSuite.mem_list": 1554924207921,
+        "benchmarks.TimeSuite.time_iterkeys": 1554924206751,
+        "benchmarks.TimeSuite.time_keys": 1554924208252,
+        "benchmarks.TimeSuite.time_range": 1554924208566,
+        "benchmarks.TimeSuite.time_xrange": 1554924207706
+    },
+    "env_name": "virtualenv-py3.5",
+    "params": {
+        "arch": "AMD64",
+        "cpu": "",
+        "machine": "DESKTOP-DF1QLOM",
+        "os": "Windows 10",
+        "python": "3.5",
+        "ram": ""
+    },
+    "profiles": {},
+    "python": "3.5",
+    "requirements": {},
+    "results": {
+        "benchmarks.MemSuite.mem_list": 2416,
+        "benchmarks.TimeSuite.time_iterkeys": null,
+        "benchmarks.TimeSuite.time_keys": {
+            "result": [
+                7.461795606494747e-06
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        0.0,
+                        7.461795606494747e-06
+                    ],
+                    "max": 7.461795606494747e-06,
+                    "mean": 4.477077363896849e-06,
+                    "min": 0.0,
+                    "number": 2094,
+                    "q_25": 0.0,
+                    "q_75": 7.461795606494747e-06,
+                    "repeat": 10,
+                    "std": 3.6555183601706933e-06
+                }
+            ]
+        },
+        "benchmarks.TimeSuite.time_range": {
+            "result": [
+                3.1187624750499e-05
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        0.0,
+                        3.1187624750499e-05
+                    ],
+                    "max": 3.1187624750499e-05,
+                    "mean": 1.87125748502994e-05,
+                    "min": 0.0,
+                    "number": 501,
+                    "q_25": 0.0,
+                    "q_75": 3.1187624750499e-05,
+                    "repeat": 10,
+                    "std": 1.5278753385623616e-05
+                }
+            ]
+        },
+        "benchmarks.TimeSuite.time_xrange": null
+    },
+    "started_at": {
+        "benchmarks.MemSuite.mem_list": 1554924207706,
+        "benchmarks.TimeSuite.time_iterkeys": 1554924206538,
+        "benchmarks.TimeSuite.time_keys": 1554924207928,
+        "benchmarks.TimeSuite.time_range": 1554924208253,
+        "benchmarks.TimeSuite.time_xrange": 1554924207486
+    },
+    "version": 1
+}

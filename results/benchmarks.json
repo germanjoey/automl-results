@@ -1,6 +1,6 @@
 {
     "benchmarks.AutoMLLibrarySuite.track_mae": {
-        "code": "class AutoMLLibrarySuite:\n    def track_mae(self, testcase_name):\n        set_root_directory()\n    \n        data_path = os.path.join('automl-testbench', testcase_name, 'data.csv')\n        with open(data_path, 'r') as data_file:\n            lines = data_file.readlines()\n            fields = lines[0].split(',')\n            target_field = fields[-1].rstrip()\n    \n        try:\n            with open('automl_wrapper.py', 'w') as automl_wrapper:\n                automl_wrapper.writelines([\n                    'import subprocess',\n                    'subprocess.run([\"%s\", \"%s\", \"%s\"])' % (\n                            AUTOML_EXE, data_path, target_field)\n                ])\n    \n        finally:\n            pass\n            #os.remove('automl_wrapper.py')\n    \n        target_results_path = os.path.join('automl-testbench', testcase_name, 'automl_results.csv')\n        if os.path.exists(target_results_path):\n            os.remove(target_results_path)\n        os.rename(\"automl_results.csv\", target_results_path)\n    \n        results_csv = read_csv_dict(target_results_path)\n        return min(float(x) for x in results_csv['mae'])",
+        "code": "class AutoMLLibrarySuite:\n    def track_mae(self, testcase_name):\n        set_root_directory()\n    \n        data_path = os.path.join('automl-testbench', testcase_name, 'data.csv')\n        with open(data_path, 'r') as data_file:\n            lines = data_file.readlines()\n            fields = lines[0].split(',')\n            target_field = fields[-1].rstrip()\n    \n        try:\n            with open('automl_wrapper.py', 'w') as automl_wrapper:\n                automl_wrapper.writelines([\n                    'import subprocess\\n',\n                    'subprocess.run([\"%s\", \"%s\", \"%s\"])' % (\n                            AUTOML_EXE, data_path, target_field)\n                ])\n            subprocess.run([PYTHON_EXE, 'automl_wrapper.py'])\n    \n        finally:\n            pass\n            #if os.path.isfile('automl_wrapper.py')\n            #    os.remove('automl_wrapper.py')\n    \n    \n        target_results_path = os.path.join('automl-testbench', testcase_name, 'automl_results.csv')\n        if os.path.exists(target_results_path):\n            os.remove(target_results_path)\n        os.rename(\"automl_results.csv\", target_results_path)\n    \n        results_csv = read_csv_dict(target_results_path)\n        return min(float(x) for x in results_csv['mae'])",
         "name": "benchmarks.AutoMLLibrarySuite.track_mae",
         "param_names": [
             "testcase"
@@ -13,7 +13,7 @@
         "timeout": 60.0,
         "type": "track",
         "unit": "unit",
-        "version": "450afb6ab337c592ca91b8b9709f8ee31725fee4410c854dfc85bfa503ead915"
+        "version": "d0457be83ced761996a7a59c929926e1aa86c96841c71ec310a9626c4ea9571a"
     },
     "version": 2
 }

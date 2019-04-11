@@ -1,11 +1,23 @@
 {
     "benchmark_version": {
-        "benchmarks.AppsheetAutoMLSuite.track_concrete": "df59522dae5a3e0e1baa661ce501d30623547594c74fb081279d70f5b5b0eafc"
+        "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": "8288d20d289ce842e76df73603ec3b2083d7d313158df018563cd22040ef7f9c",
+        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": "e9c6976c3ee6b3f5f68462caa6b92b3f941b74de8e647af2d0704e32d7655b2f",
+        "benchmarks.AppsheetAutoMLSuite.track_concrete": "df59522dae5a3e0e1baa661ce501d30623547594c74fb081279d70f5b5b0eafc",
+        "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": "e3b52d101edcd271b0819a477d54421b43efd5e527d9a9395f636aa83257f7fe",
+        "benchmarks.AutoMLLibrarySuite.track_mae": "6d59e293c4ebfcc399edf3e684bb93c0b73b258498bdd6763c7b141ec11bb4fb",
+        "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": "8288d20d289ce842e76df73603ec3b2083d7d313158df018563cd22040ef7f9c",
+        "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": "e3b52d101edcd271b0819a477d54421b43efd5e527d9a9395f636aa83257f7fe"
     },
     "commit_hash": "32f5bc13f440c3fb8cce9e9e7229cac8bb24c6f1",
     "date": 1554747324000,
     "ended_at": {
-        "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935980144
+        "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151150,
+        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555021405394,
+        "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935980144,
+        "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151407,
+        "benchmarks.AutoMLLibrarySuite.track_mae": 1555021406581,
+        "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151894,
+        "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": 1555018152162
     },
     "env_name": "virtualenv-py3.5",
     "params": {
@@ -20,10 +32,38 @@
     "python": "3.5",
     "requirements": {},
     "results": {
-        "benchmarks.AppsheetAutoMLSuite.track_concrete": 8.41897918645618
+        "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": null,
+        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": {
+            "params": [
+                [
+                    "'concrete-calculator'"
+                ]
+            ],
+            "result": [
+                8.838668156596063
+            ]
+        },
+        "benchmarks.AppsheetAutoMLSuite.track_concrete": 8.41897918645618,
+        "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": null,
+        "benchmarks.AutoMLLibrarySuite.track_mae": {
+            "params": [
+                [
+                    "'concrete-calculator'"
+                ]
+            ],
+            "result": null
+        },
+        "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": null,
+        "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": null
     },
     "started_at": {
-        "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935963879
+        "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018150924,
+        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555021386793,
+        "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935963879,
+        "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151186,
+        "benchmarks.AutoMLLibrarySuite.track_mae": 1555021405665,
+        "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151683,
+        "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151929
     },
     "version": 1
 }

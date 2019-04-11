@@ -12,10 +12,10 @@
     "date": 1554747324000,
     "ended_at": {
         "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151150,
-        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555026003336,
+        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555026266837,
         "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935980144,
         "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151407,
-        "benchmarks.AutoMLLibrarySuite.track_mae": 1555026003559,
+        "benchmarks.AutoMLLibrarySuite.track_mae": 1555026267500,
         "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151894,
         "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": 1555018152162
     },
@@ -40,7 +40,7 @@
                 ]
             ],
             "result": [
-                8.211062783176459
+                7.742556271043796
             ]
         },
         "benchmarks.AppsheetAutoMLSuite.track_concrete": 8.41897918645618,
@@ -58,10 +58,10 @@
     },
     "started_at": {
         "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018150924,
-        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555025986753,
+        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555026249743,
         "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935963879,
         "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151186,
-        "benchmarks.AutoMLLibrarySuite.track_mae": 1555026003338,
+        "benchmarks.AutoMLLibrarySuite.track_mae": 1555026267286,
         "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151683,
         "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151929
     },

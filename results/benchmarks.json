@@ -1,22 +1,6 @@
 {
-    "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": {
-        "code": "class AppsheetAutoMLRegressionSuite:\n    def track_mae(self, testcase_name):\n        set_root_directory()\n    \n        subprocess.run([PYTHON_EXE, os.path.join(\"trainer\", \"localrunner.py\"), testcase_name])\n    \n        with open(os.path.join('automl-testbench', testcase_name, 'appsheet-results.txt'), 'r') as results:\n            results = json.load(results)\n            return results[\"perf_report\"][\"mae\"]",
-        "name": "benchmarks.AppsheetAutoMLRegressionSuite.track_mae",
-        "param_names": [
-            "testcase"
-        ],
-        "params": [
-            [
-                "'concrete-calculator'"
-            ]
-        ],
-        "timeout": 60.0,
-        "type": "track",
-        "unit": "unit",
-        "version": "e9c6976c3ee6b3f5f68462caa6b92b3f941b74de8e647af2d0704e32d7655b2f"
-    },
     "benchmarks.AutoMLLibrarySuite.track_mae": {
-        "code": "class AutoMLLibrarySuite:\n    def track_mae(self, testcase_name):\n        set_root_directory()\n    \n        data_path = os.path.join('automl-testbench', testcase_name, 'data.csv')\n        with open(data_path, 'r') as data_file:\n            lines = data_file.readlines()\n            fields = lines[0].split(',')\n            target_field = fields[-1].rstrip()\n    \n        subprocess.run([PYTHON_EXE, AUTOML_PATH, data_path, target_field])\n    \n        target_results_path = os.path.join('automl-testbench', testcase_name, 'automl_results.csv')\n        if os.path.exists(target_results_path):\n            os.remove(target_results_path)\n        os.rename(\"automl_results.csv\", target_results_path)\n    \n        results_csv = read_csv_dict(target_results_path)\n        return min(float(x) for x in results_csv['mae'])",
+        "code": "class AutoMLLibrarySuite:\n    def track_mae(self, testcase_name):\n        set_root_directory()\n    \n        data_path = os.path.join('automl-testbench', testcase_name, 'data.csv')\n        with open(data_path, 'r') as data_file:\n            lines = data_file.readlines()\n            fields = lines[0].split(',')\n            target_field = fields[-1].rstrip()\n    \n        subprocess.run([AUTOML_EXE, data_path, target_field])\n    \n        target_results_path = os.path.join('automl-testbench', testcase_name, 'automl_results.csv')\n        if os.path.exists(target_results_path):\n            os.remove(target_results_path)\n        os.rename(\"automl_results.csv\", target_results_path)\n    \n        results_csv = read_csv_dict(target_results_path)\n        return min(float(x) for x in results_csv['mae'])",
         "name": "benchmarks.AutoMLLibrarySuite.track_mae",
         "param_names": [
             "testcase"
@@ -29,7 +13,7 @@
         "timeout": 60.0,
         "type": "track",
         "unit": "unit",
-        "version": "6d59e293c4ebfcc399edf3e684bb93c0b73b258498bdd6763c7b141ec11bb4fb"
+        "version": "26d6ed08ec3ac8510c141dd4bf42feb4d295f4a3e10ddc147d2f42be678edbe1"
     },
     "version": 2
 }

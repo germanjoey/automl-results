@@ -4,7 +4,7 @@
         "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": "e9c6976c3ee6b3f5f68462caa6b92b3f941b74de8e647af2d0704e32d7655b2f",
         "benchmarks.AppsheetAutoMLSuite.track_concrete": "df59522dae5a3e0e1baa661ce501d30623547594c74fb081279d70f5b5b0eafc",
         "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": "e3b52d101edcd271b0819a477d54421b43efd5e527d9a9395f636aa83257f7fe",
-        "benchmarks.AutoMLLibrarySuite.track_mae": "1fe5b7301cdd49e147ff16e83cdc5684b53f30750bad214c085be6a149ef97ff",
+        "benchmarks.AutoMLLibrarySuite.track_mae": "36dbce5c631349c2275d59a93f6298e1d2e8547d339ba640f1cb71a941337ab2",
         "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": "8288d20d289ce842e76df73603ec3b2083d7d313158df018563cd22040ef7f9c",
         "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": "e3b52d101edcd271b0819a477d54421b43efd5e527d9a9395f636aa83257f7fe"
     },
@@ -12,10 +12,10 @@
     "date": 1554747324000,
     "ended_at": {
         "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151150,
-        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555026266837,
+        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555026580733,
         "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935980144,
         "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151407,
-        "benchmarks.AutoMLLibrarySuite.track_mae": 1555026267500,
+        "benchmarks.AutoMLLibrarySuite.track_mae": 1555031092596,
         "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151894,
         "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": 1555018152162
     },
@@ -40,7 +40,7 @@
                 ]
             ],
             "result": [
-                7.742556271043796
+                6.030258289818625
             ]
         },
         "benchmarks.AppsheetAutoMLSuite.track_concrete": 8.41897918645618,
@@ -58,10 +58,10 @@
     },
     "started_at": {
         "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018150924,
-        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555026249743,
+        "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555026563635,
         "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935963879,
         "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151186,
-        "benchmarks.AutoMLLibrarySuite.track_mae": 1555026267286,
+        "benchmarks.AutoMLLibrarySuite.track_mae": 1555026581138,
         "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151683,
         "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151929
     },

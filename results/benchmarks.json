@@ -1,23 +1,24 @@
 {
-    "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": {
-        "code": "class AppsheetAutoMLRegressionSuite:\n    def track_mae(self, testcase_name):\n        set_root_directory()\n    \n        subprocess.run([PYTHON_EXE, os.path.join(\"trainer\", \"localrunner.py\"), testcase_name])\n    \n        with open(os.path.join('automl-testbench', testcase_name, 'appsheet-results.txt'), 'r') as results:\n            results = json.load(results)\n            return results[\"perf_report\"][\"mae\"]",
-        "name": "benchmarks.AppsheetAutoMLRegressionSuite.track_mae",
+    "benchmarks.ConcreteCalculatorSuite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return TestCaseBuilder.get_metric(source_type, testcase_name, metric_name)",
+        "name": "benchmarks.ConcreteCalculatorSuite.track_mae",
         "param_names": [
-            "testcase"
+            "source"
         ],
         "params": [
             [
-                "'concrete-calculator'"
+                "'appsheet'",
+                "'automl_lib'"
             ]
         ],
         "timeout": 60.0,
         "type": "track",
         "unit": "unit",
-        "version": "e9c6976c3ee6b3f5f68462caa6b92b3f941b74de8e647af2d0704e32d7655b2f"
+        "version": "f59603a0ef46c7648f2320f6ae322140f95bfdb66770b45b7dd47f1880751cd0"
     },
-    "benchmarks.AutoMLLibrarySuite.track_mae": {
-        "code": "class AutoMLLibrarySuite:\n    def track_mae(self, testcase_name):\n        set_root_directory()\n    \n        data_path = os.path.join('automl-testbench', testcase_name, 'data.csv')\n        with open(data_path, 'r') as data_file:\n            lines = data_file.readlines()\n            fields = lines[0].split(',')\n            target_field = fields[-1].rstrip()\n    \n        old_path = os.environ['PATH']\n        try:\n            os.environ['PATH'] = BENCHMARK_RUN_PATH\n            subprocess.run([AUTOML_EXE, data_path, target_field])\n        finally:\n            os.environ['PATH'] = old_path\n    \n        target_results_path = os.path.join('automl-testbench', testcase_name, 'automl_results.csv')\n        if os.path.exists(target_results_path):\n            os.remove(target_results_path)\n        os.rename(\"automl_results.csv\", target_results_path)\n    \n        results_csv = read_csv_dict(target_results_path)\n        return min(float(x) for x in results_csv['mae'])",
-        "name": "benchmarks.AutoMLLibrarySuite.track_mae",
+    "benchmarks.MaeComparison.track_appsheet": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return TestCaseBuilder.get_metric(source_type, testcase_name, metric_name)",
+        "name": "benchmarks.MaeComparison.track_appsheet",
         "param_names": [
             "testcase"
         ],
@@ -29,7 +30,23 @@
         "timeout": 60.0,
         "type": "track",
         "unit": "unit",
-        "version": "36dbce5c631349c2275d59a93f6298e1d2e8547d339ba640f1cb71a941337ab2"
+        "version": "6d9d795010bded4b819641c925289f3207414673e9bbb696d4c43a52a6c2c110"
+    },
+    "benchmarks.MaeComparison.track_automl_lib": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return TestCaseBuilder.get_metric(source_type, testcase_name, metric_name)",
+        "name": "benchmarks.MaeComparison.track_automl_lib",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'concrete-calculator'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "6d9d795010bded4b819641c925289f3207414673e9bbb696d4c43a52a6c2c110"
     },
     "version": 2
 }

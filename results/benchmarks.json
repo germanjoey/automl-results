@@ -1,6 +1,6 @@
 {
     "benchmarks.ConcreteCalculatorSuite.track_mae": {
-        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return TestCaseBuilder.get_metric(source_type, testcase_name, metric_name)",
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return TestCaseBuilder.get_metric_value(source_type, testcase_name, metric_name)",
         "name": "benchmarks.ConcreteCalculatorSuite.track_mae",
         "param_names": [
             "source"
@@ -14,10 +14,10 @@
         "timeout": 60.0,
         "type": "track",
         "unit": "unit",
-        "version": "f59603a0ef46c7648f2320f6ae322140f95bfdb66770b45b7dd47f1880751cd0"
+        "version": "43eba3674402186b5aa0bed50a88db72e7a325ef3cc7839e8a542b4fd0fd3aa0"
     },
     "benchmarks.MaeComparison.track_appsheet": {
-        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return TestCaseBuilder.get_metric(source_type, testcase_name, metric_name)",
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return TestCaseBuilder.get_metric_value(source_type, testcase_name, metric_name)",
         "name": "benchmarks.MaeComparison.track_appsheet",
         "param_names": [
             "testcase"
@@ -30,10 +30,10 @@
         "timeout": 60.0,
         "type": "track",
         "unit": "unit",
-        "version": "6d9d795010bded4b819641c925289f3207414673e9bbb696d4c43a52a6c2c110"
+        "version": "e5c2f571b1ea40e84b32a3b013f24b43f3ca3b6991c57d3ebdebd16b351901e2"
     },
     "benchmarks.MaeComparison.track_automl_lib": {
-        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return TestCaseBuilder.get_metric(source_type, testcase_name, metric_name)",
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return TestCaseBuilder.get_metric_value(source_type, testcase_name, metric_name)",
         "name": "benchmarks.MaeComparison.track_automl_lib",
         "param_names": [
             "testcase"
@@ -46,7 +46,7 @@
         "timeout": 60.0,
         "type": "track",
         "unit": "unit",
-        "version": "6d9d795010bded4b819641c925289f3207414673e9bbb696d4c43a52a6c2c110"
+        "version": "e5c2f571b1ea40e84b32a3b013f24b43f3ca3b6991c57d3ebdebd16b351901e2"
     },
     "version": 2
 }

@@ -7,8 +7,8 @@
         ],
         "params": [
             [
-                "'appsheet'",
-                "'automl_gs'"
+                "'automl_gs'",
+                "'appsheet'"
             ]
         ],
         "timeout": 60.0,
@@ -24,8 +24,8 @@
         ],
         "params": [
             [
-                "'appsheet'",
-                "'automl_gs'"
+                "'automl_gs'",
+                "'appsheet'"
             ]
         ],
         "timeout": 60.0,

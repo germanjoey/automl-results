@@ -1,0 +1,115 @@
+{
+    "benchmark_version": {
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.ConcreteCalculatorSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.MaeComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.MaeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "commit_hash": "178fdde5e4e727ba57c890bc75c4b9e0bf7ac7bc",
+    "date": 1555100247000,
+    "ended_at": {
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1555104566898,
+        "benchmarks.ConcreteCalculatorSuite.track_mae": 1555105343926,
+        "benchmarks.MaeComparison.track_appsheet": 1555105344815,
+        "benchmarks.MaeComparison.track_automl_gs": 1555105345337,
+        "benchmarks.TrainingTimeComparison.track_appsheet": 1555105345767,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555105346196
+    },
+    "env_name": "virtualenv-py3.5",
+    "params": {
+        "arch": "AMD64",
+        "cpu": "",
+        "machine": "DESKTOP-DF1QLOM",
+        "os": "Windows 10",
+        "python": "3.5",
+        "ram": ""
+    },
+    "profiles": {},
+    "python": "3.5",
+    "requirements": {},
+    "results": {
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                4.85714754521452,
+                4.122581357156624
+            ]
+        },
+        "benchmarks.ConcreteCalculatorSuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                6.145292064518604,
+                5.886489383676678
+            ]
+        },
+        "benchmarks.MaeComparison.track_appsheet": {
+            "params": [
+                [
+                    "'airflow-self-noise'",
+                    "'concrete-calculator'"
+                ]
+            ],
+            "result": [
+                4.85714754521452,
+                6.145292064518604
+            ]
+        },
+        "benchmarks.MaeComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'airflow-self-noise'",
+                    "'concrete-calculator'"
+                ]
+            ],
+            "result": [
+                4.122581357156624,
+                5.886489383676678
+            ]
+        },
+        "benchmarks.TrainingTimeComparison.track_appsheet": {
+            "params": [
+                [
+                    "'airflow-self-noise'",
+                    "'concrete-calculator'"
+                ]
+            ],
+            "result": [
+                22.52734375,
+                22.870381116867065
+            ]
+        },
+        "benchmarks.TrainingTimeComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'airflow-self-noise'",
+                    "'concrete-calculator'"
+                ]
+            ],
+            "result": [
+                754.4993093013763,
+                750.7202441692352
+            ]
+        }
+    },
+    "started_at": {
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1555103789331,
+        "benchmarks.ConcreteCalculatorSuite.track_mae": 1555104569759,
+        "benchmarks.MaeComparison.track_appsheet": 1555105344389,
+        "benchmarks.MaeComparison.track_automl_gs": 1555105344817,
+        "benchmarks.TrainingTimeComparison.track_appsheet": 1555105345341,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555105345770
+    },
+    "version": 1
+}

@@ -7,25 +7,8 @@
         ],
         "params": [
             [
-                "'automl_gs'",
-                "'appsheet'"
-            ]
-        ],
-        "timeout": 60.0,
-        "type": "track",
-        "unit": "unit",
-        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
-    },
-    "benchmarks.AirflowSelfNoiseSuite.track_training_time": {
-        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.AirflowSelfNoiseSuite.track_training_time",
-        "param_names": [
-            "source"
-        ],
-        "params": [
-            [
-                "'automl_gs'",
-                "'appsheet'"
+                "'appsheet'",
+                "'automl_gs'"
             ]
         ],
         "timeout": 60.0,
@@ -41,25 +24,8 @@
         ],
         "params": [
             [
-                "'automl_gs'",
-                "'appsheet'"
-            ]
-        ],
-        "timeout": 60.0,
-        "type": "track",
-        "unit": "unit",
-        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
-    },
-    "benchmarks.ConcreteCalculatorSuite.track_training_time": {
-        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.ConcreteCalculatorSuite.track_training_time",
-        "param_names": [
-            "source"
-        ],
-        "params": [
-            [
-                "'automl_gs'",
-                "'appsheet'"
+                "'appsheet'",
+                "'automl_gs'"
             ]
         ],
         "timeout": 60.0,
@@ -101,9 +67,9 @@
         "unit": "unit",
         "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
     },
-    "benchmarks.Training_TimeComparison.track_appsheet": {
+    "benchmarks.TrainingTimeComparison.track_appsheet": {
         "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.Training_TimeComparison.track_appsheet",
+        "name": "benchmarks.TrainingTimeComparison.track_appsheet",
         "param_names": [
             "testcase"
         ],
@@ -118,9 +84,9 @@
         "unit": "unit",
         "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
     },
-    "benchmarks.Training_TimeComparison.track_automl_gs": {
+    "benchmarks.TrainingTimeComparison.track_automl_gs": {
         "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.Training_TimeComparison.track_automl_gs",
+        "name": "benchmarks.TrainingTimeComparison.track_automl_gs",
         "param_names": [
             "testcase"
         ],

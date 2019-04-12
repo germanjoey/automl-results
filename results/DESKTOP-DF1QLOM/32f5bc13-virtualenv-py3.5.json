@@ -12,6 +12,8 @@
         "benchmarks.MaeComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
         "benchmarks.MaeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
         "benchmarks.MaeComparison.track_automl_lib": "e5c2f571b1ea40e84b32a3b013f24b43f3ca3b6991c57d3ebdebd16b351901e2",
+        "benchmarks.TrainingTimeComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
         "benchmarks.Training_TimeComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
         "benchmarks.Training_TimeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
         "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": "8288d20d289ce842e76df73603ec3b2083d7d313158df018563cd22040ef7f9c",
@@ -20,18 +22,20 @@
     "commit_hash": "32f5bc13f440c3fb8cce9e9e7229cac8bb24c6f1",
     "date": 1554747324000,
     "ended_at": {
-        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1555098817955,
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1555100640607,
         "benchmarks.AirflowSelfNoiseSuite.track_training_time": 1555098818412,
         "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151150,
         "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555026580733,
         "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935980144,
         "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151407,
         "benchmarks.AutoMLLibrarySuite.track_mae": 1555031092596,
-        "benchmarks.ConcreteCalculatorSuite.track_mae": 1555098818881,
+        "benchmarks.ConcreteCalculatorSuite.track_mae": 1555101512821,
         "benchmarks.ConcreteCalculatorSuite.track_training_time": 1555098819311,
-        "benchmarks.MaeComparison.track_appsheet": 1555098819752,
-        "benchmarks.MaeComparison.track_automl_gs": 1555098820176,
+        "benchmarks.MaeComparison.track_appsheet": 1555101516704,
+        "benchmarks.MaeComparison.track_automl_gs": 1555101517124,
         "benchmarks.MaeComparison.track_automl_lib": 1555088230381,
+        "benchmarks.TrainingTimeComparison.track_appsheet": 1555101517939,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555101518734,
         "benchmarks.Training_TimeComparison.track_appsheet": 1555098820638,
         "benchmarks.Training_TimeComparison.track_automl_gs": 1555098821091,
         "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151894,
@@ -53,13 +57,13 @@
         "benchmarks.AirflowSelfNoiseSuite.track_mae": {
             "params": [
                 [
-                    "'automl_gs'",
-                    "'appsheet'"
+                    "'appsheet'",
+                    "'automl_gs'"
                 ]
             ],
             "result": [
-                3.671495322,
-                5.293082230927928
+                5.500203176839462,
+                3.9181944368958734
             ]
         },
         "benchmarks.AirflowSelfNoiseSuite.track_training_time": {
@@ -100,13 +104,13 @@
         "benchmarks.ConcreteCalculatorSuite.track_mae": {
             "params": [
                 [
-                    "'automl_gs'",
-                    "'appsheet'"
+                    "'appsheet'",
+                    "'automl_gs'"
                 ]
             ],
             "result": [
-                5.130031015,
-                7.819296915554306
+                4.85167917356522,
+                8.286293839945376
             ]
         },
         "benchmarks.ConcreteCalculatorSuite.track_training_time": {
@@ -129,8 +133,8 @@
                 ]
             ],
             "result": [
-                5.293082230927928,
-                7.819296915554306
+                5.500203176839462,
+                8.286293839945376
             ]
         },
         "benchmarks.MaeComparison.track_automl_gs": {
@@ -141,8 +145,8 @@
                 ]
             ],
             "result": [
-                3.671495322,
-                5.130031015
+                3.9181944368958734,
+                4.85167917356522
             ]
         },
         "benchmarks.MaeComparison.track_automl_lib": {
@@ -153,6 +157,30 @@
             ],
             "result": [
                 null
+            ]
+        },
+        "benchmarks.TrainingTimeComparison.track_appsheet": {
+            "params": [
+                [
+                    "'airflow-self-noise'",
+                    "'concrete-calculator'"
+                ]
+            ],
+            "result": [
+                21.769399642944336,
+                22.0380916595459
+            ]
+        },
+        "benchmarks.TrainingTimeComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'airflow-self-noise'",
+                    "'concrete-calculator'"
+                ]
+            ],
+            "result": [
+                759.9454782009125,
+                846.4898724555969
             ]
         },
         "benchmarks.Training_TimeComparison.track_appsheet": {
@@ -183,18 +211,20 @@
         "mlbench.AutoMLLibraryRegressionBenchmark.track_mae": null
     },
     "started_at": {
-        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1555098817414,
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1555099858196,
         "benchmarks.AirflowSelfNoiseSuite.track_training_time": 1555098817981,
         "benchmarks.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018150924,
         "benchmarks.AppsheetAutoMLRegressionSuite.track_mae": 1555026563635,
         "benchmarks.AppsheetAutoMLSuite.track_concrete": 1554935963879,
         "benchmarks.AutoMLLibraryRegressionBenchmark.track_mae": 1555018151186,
         "benchmarks.AutoMLLibrarySuite.track_mae": 1555026581138,
-        "benchmarks.ConcreteCalculatorSuite.track_mae": 1555098818442,
+        "benchmarks.ConcreteCalculatorSuite.track_mae": 1555100643751,
         "benchmarks.ConcreteCalculatorSuite.track_training_time": 1555098818886,
-        "benchmarks.MaeComparison.track_appsheet": 1555098819320,
-        "benchmarks.MaeComparison.track_automl_gs": 1555098819756,
+        "benchmarks.MaeComparison.track_appsheet": 1555101515863,
+        "benchmarks.MaeComparison.track_automl_gs": 1555101516708,
         "benchmarks.MaeComparison.track_automl_lib": 1555088028968,
+        "benchmarks.TrainingTimeComparison.track_appsheet": 1555101517129,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555101517944,
         "benchmarks.Training_TimeComparison.track_appsheet": 1555098820195,
         "benchmarks.Training_TimeComparison.track_automl_gs": 1555098820658,
         "mlbench.AppsheetAutoMLRegressionBenchmark.track_mae": 1555018151683,

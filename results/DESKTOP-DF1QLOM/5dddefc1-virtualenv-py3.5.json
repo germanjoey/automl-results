@@ -1,0 +1,529 @@
+{
+    "benchmark_version": {
+        "benchmarks.AbsenteeismSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.AutismScreeningSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.AutismScreeningSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.AutoMpgSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.AutoMpgSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.ChurnPredictionSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.ChurnPredictionSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.ConcreteCalculatorSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.DressesSalesSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.DressesSalesSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.EnergyEfficiency1Suite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.EnergyEfficiency2Suite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.HeartDiseaseSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.HeartDiseaseSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.MaeComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.MaeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.NpsSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.NpsSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.PaperReviewsSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.PaperReviewsSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.PrecisionComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.PrecisionComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.RecallComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.RecallComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.StudentPerformanceMathSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.StudentPerformancePorSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.TitanicSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.TitanicSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.TrainingTimeComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.UserKnowledgeModelingSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.UserKnowledgeModelingSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.WineQualitySuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.WineSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.WineSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.YachtHydrodynamicsSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "commit_hash": "5dddefc12a292156d2fe505d4697d363fa3de901",
+    "date": 1555953646000,
+    "ended_at": {
+        "benchmarks.AbsenteeismSuite.track_mae": 1555973910966,
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1555960839542,
+        "benchmarks.AutismScreeningSuite.track_precision": 1555973916364,
+        "benchmarks.AutismScreeningSuite.track_recall": 1555973917576,
+        "benchmarks.AutoMpgSuite.track_precision": 1555960852904,
+        "benchmarks.AutoMpgSuite.track_recall": 1555960856365,
+        "benchmarks.ChurnPredictionSuite.track_precision": 1555960865681,
+        "benchmarks.ChurnPredictionSuite.track_recall": 1555960867184,
+        "benchmarks.ConcreteCalculatorSuite.track_mae": 1555960875011,
+        "benchmarks.DressesSalesSuite.track_precision": 1555960876827,
+        "benchmarks.DressesSalesSuite.track_recall": 1555960880929,
+        "benchmarks.EnergyEfficiency1Suite.track_mae": 1555960882555,
+        "benchmarks.EnergyEfficiency2Suite.track_mae": 1555960886830,
+        "benchmarks.HeartDiseaseSuite.track_precision": 1555960893430,
+        "benchmarks.HeartDiseaseSuite.track_recall": 1555960898113,
+        "benchmarks.MaeComparison.track_appsheet": 1555973918048,
+        "benchmarks.MaeComparison.track_automl_gs": 1555973918375,
+        "benchmarks.NpsSuite.track_precision": 1555960933621,
+        "benchmarks.NpsSuite.track_recall": 1555960935058,
+        "benchmarks.PaperReviewsSuite.track_precision": 1555960940299,
+        "benchmarks.PaperReviewsSuite.track_recall": 1555960942023,
+        "benchmarks.PrecisionComparison.track_appsheet": 1555973918816,
+        "benchmarks.PrecisionComparison.track_automl_gs": 1555973919141,
+        "benchmarks.RecallComparison.track_appsheet": 1555973919472,
+        "benchmarks.RecallComparison.track_automl_gs": 1555973919899,
+        "benchmarks.StudentPerformanceMathSuite.track_mae": 1555960999286,
+        "benchmarks.StudentPerformancePorSuite.track_mae": 1555961003496,
+        "benchmarks.TitanicSuite.track_precision": 1555961007655,
+        "benchmarks.TitanicSuite.track_recall": 1555961009062,
+        "benchmarks.TrainingTimeComparison.track_appsheet": 1555973920271,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555973920611,
+        "benchmarks.UserKnowledgeModelingSuite.track_precision": 1555961044686,
+        "benchmarks.UserKnowledgeModelingSuite.track_recall": 1555961050141,
+        "benchmarks.WineQualitySuite.track_mae": 1555961052300,
+        "benchmarks.WineSuite.track_precision": 1555961055630,
+        "benchmarks.WineSuite.track_recall": 1555961058901,
+        "benchmarks.YachtHydrodynamicsSuite.track_mae": 1555961062338
+    },
+    "env_name": "virtualenv-py3.5",
+    "params": {
+        "arch": "AMD64",
+        "cpu": "",
+        "machine": "DESKTOP-DF1QLOM",
+        "os": "Windows 10",
+        "python": "3.5",
+        "ram": ""
+    },
+    "profiles": {},
+    "python": "3.5",
+    "requirements": {},
+    "results": {
+        "benchmarks.AbsenteeismSuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                4.4317347294575455,
+                4.4317347294575455
+            ]
+        },
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.AutismScreeningSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null,
+                1.0
+            ]
+        },
+        "benchmarks.AutismScreeningSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": null
+        },
+        "benchmarks.AutoMpgSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.AutoMpgSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.ChurnPredictionSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.ChurnPredictionSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.ConcreteCalculatorSuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.DressesSalesSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.DressesSalesSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.EnergyEfficiency1Suite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.EnergyEfficiency2Suite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.HeartDiseaseSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.HeartDiseaseSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.MaeComparison.track_appsheet": {
+            "params": [
+                [
+                    "'absenteeism'"
+                ]
+            ],
+            "result": [
+                4.4317347294575455
+            ]
+        },
+        "benchmarks.MaeComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'absenteeism'"
+                ]
+            ],
+            "result": null
+        },
+        "benchmarks.NpsSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.NpsSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.PaperReviewsSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.PaperReviewsSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.PrecisionComparison.track_appsheet": {
+            "params": [
+                [
+                    "'autism-screening'"
+                ]
+            ],
+            "result": [
+                1.0
+            ]
+        },
+        "benchmarks.PrecisionComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'autism-screening'"
+                ]
+            ],
+            "result": null
+        },
+        "benchmarks.RecallComparison.track_appsheet": {
+            "params": [
+                [
+                    "'autism-screening'"
+                ]
+            ],
+            "result": [
+                1.0
+            ]
+        },
+        "benchmarks.RecallComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'autism-screening'"
+                ]
+            ],
+            "result": null
+        },
+        "benchmarks.StudentPerformanceMathSuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.StudentPerformancePorSuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.TitanicSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.TitanicSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.TrainingTimeComparison.track_appsheet": {
+            "params": [
+                [
+                    "'absenteeism'"
+                ]
+            ],
+            "result": [
+                23.49214768409729
+            ]
+        },
+        "benchmarks.TrainingTimeComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'absenteeism'"
+                ]
+            ],
+            "result": [
+                15.256289720535278
+            ]
+        },
+        "benchmarks.UserKnowledgeModelingSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.UserKnowledgeModelingSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.WineQualitySuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.WineSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.WineSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "benchmarks.YachtHydrodynamicsSuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'",
+                    "'appsheet'"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        }
+    },
+    "started_at": {
+        "benchmarks.AbsenteeismSuite.track_mae": 1555973910222,
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1555960838560,
+        "benchmarks.AutismScreeningSuite.track_precision": 1555973910972,
+        "benchmarks.AutismScreeningSuite.track_recall": 1555973916520,
+        "benchmarks.AutoMpgSuite.track_precision": 1555960849846,
+        "benchmarks.AutoMpgSuite.track_recall": 1555960853318,
+        "benchmarks.ChurnPredictionSuite.track_precision": 1555960857617,
+        "benchmarks.ChurnPredictionSuite.track_recall": 1555960866134,
+        "benchmarks.ConcreteCalculatorSuite.track_mae": 1555960867606,
+        "benchmarks.DressesSalesSuite.track_precision": 1555960875433,
+        "benchmarks.DressesSalesSuite.track_recall": 1555960877428,
+        "benchmarks.EnergyEfficiency1Suite.track_mae": 1555960881205,
+        "benchmarks.EnergyEfficiency2Suite.track_mae": 1555960883052,
+        "benchmarks.HeartDiseaseSuite.track_precision": 1555960887258,
+        "benchmarks.HeartDiseaseSuite.track_recall": 1555960894750,
+        "benchmarks.MaeComparison.track_appsheet": 1555973917618,
+        "benchmarks.MaeComparison.track_automl_gs": 1555973918053,
+        "benchmarks.NpsSuite.track_precision": 1555960932678,
+        "benchmarks.NpsSuite.track_recall": 1555960934190,
+        "benchmarks.PaperReviewsSuite.track_precision": 1555960935748,
+        "benchmarks.PaperReviewsSuite.track_recall": 1555960940952,
+        "benchmarks.PrecisionComparison.track_appsheet": 1555973918398,
+        "benchmarks.PrecisionComparison.track_automl_gs": 1555973918823,
+        "benchmarks.RecallComparison.track_appsheet": 1555973919149,
+        "benchmarks.RecallComparison.track_automl_gs": 1555973919476,
+        "benchmarks.StudentPerformanceMathSuite.track_mae": 1555960998150,
+        "benchmarks.StudentPerformancePorSuite.track_mae": 1555960999644,
+        "benchmarks.TitanicSuite.track_precision": 1555961004601,
+        "benchmarks.TitanicSuite.track_recall": 1555961007928,
+        "benchmarks.TrainingTimeComparison.track_appsheet": 1555973919944,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555973920280,
+        "benchmarks.UserKnowledgeModelingSuite.track_precision": 1555961039542,
+        "benchmarks.UserKnowledgeModelingSuite.track_recall": 1555961044981,
+        "benchmarks.WineQualitySuite.track_mae": 1555961051257,
+        "benchmarks.WineSuite.track_precision": 1555961052483,
+        "benchmarks.WineSuite.track_recall": 1555961055864,
+        "benchmarks.YachtHydrodynamicsSuite.track_mae": 1555961059192
+    },
+    "version": 1
+}

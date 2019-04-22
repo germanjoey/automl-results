@@ -1,14 +1,14 @@
 {
-    "benchmarks.AirflowSelfNoiseSuite.track_mae": {
+    "benchmarks.AbsenteeismSuite.track_mae": {
         "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.AirflowSelfNoiseSuite.track_mae",
+        "name": "benchmarks.AbsenteeismSuite.track_mae",
         "param_names": [
             "source"
         ],
         "params": [
             [
-                "'automl_gs'",
-                "'appsheet'"
+                "'appsheet'",
+                "'automl_gs'"
             ]
         ],
         "timeout": 60.0,
@@ -16,16 +16,33 @@
         "unit": "unit",
         "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
     },
-    "benchmarks.ConcreteCalculatorSuite.track_mae": {
+    "benchmarks.AutismScreeningSuite.track_precision": {
         "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.ConcreteCalculatorSuite.track_mae",
+        "name": "benchmarks.AutismScreeningSuite.track_precision",
         "param_names": [
             "source"
         ],
         "params": [
             [
-                "'automl_gs'",
-                "'appsheet'"
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.AutismScreeningSuite.track_recall": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.AutismScreeningSuite.track_recall",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
             ]
         ],
         "timeout": 60.0,
@@ -41,8 +58,7 @@
         ],
         "params": [
             [
-                "'airflow-self-noise'",
-                "'concrete-calculator'"
+                "'absenteeism'"
             ]
         ],
         "timeout": 60.0,
@@ -58,8 +74,71 @@
         ],
         "params": [
             [
-                "'airflow-self-noise'",
-                "'concrete-calculator'"
+                "'absenteeism'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.PrecisionComparison.track_appsheet": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.PrecisionComparison.track_appsheet",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'autism-screening'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.PrecisionComparison.track_automl_gs": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.PrecisionComparison.track_automl_gs",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'autism-screening'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.RecallComparison.track_appsheet": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.RecallComparison.track_appsheet",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'autism-screening'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.RecallComparison.track_automl_gs": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.RecallComparison.track_automl_gs",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'autism-screening'"
             ]
         ],
         "timeout": 60.0,
@@ -75,8 +154,7 @@
         ],
         "params": [
             [
-                "'airflow-self-noise'",
-                "'concrete-calculator'"
+                "'absenteeism'"
             ]
         ],
         "timeout": 60.0,
@@ -92,8 +170,7 @@
         ],
         "params": [
             [
-                "'airflow-self-noise'",
-                "'concrete-calculator'"
+                "'absenteeism'"
             ]
         ],
         "timeout": 60.0,

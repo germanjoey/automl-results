@@ -15,17 +15,17 @@
     "commit_hash": "c7248bad2097e255d5776265e636635c2002806c",
     "date": 1555969028000,
     "ended_at": {
-        "benchmarks.AbsenteeismSuite.track_mae": 1555974233889,
-        "benchmarks.AutismScreeningSuite.track_precision": 1555974278587,
-        "benchmarks.AutismScreeningSuite.track_recall": 1555974282578,
+        "benchmarks.AbsenteeismSuite.track_mae": 1555993078034,
+        "benchmarks.AutismScreeningSuite.track_precision": 1555995688553,
+        "benchmarks.AutismScreeningSuite.track_recall": 1555995695752,
         "benchmarks.MaeComparison.track_appsheet": 1555974313849,
-        "benchmarks.MaeComparison.track_automl_gs": 1555974315038,
+        "benchmarks.MaeComparison.track_automl_gs": 1555995696331,
         "benchmarks.PrecisionComparison.track_appsheet": 1555974315392,
-        "benchmarks.PrecisionComparison.track_automl_gs": 1555974315714,
+        "benchmarks.PrecisionComparison.track_automl_gs": 1555995696852,
         "benchmarks.RecallComparison.track_appsheet": 1555974316050,
-        "benchmarks.RecallComparison.track_automl_gs": 1555974316268,
+        "benchmarks.RecallComparison.track_automl_gs": 1555995697284,
         "benchmarks.TrainingTimeComparison.track_appsheet": 1555974316603,
-        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555974317031
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555995697743
     },
     "env_name": "virtualenv-py3.5",
     "params": {
@@ -43,7 +43,6 @@
         "benchmarks.AbsenteeismSuite.track_mae": {
             "params": [
                 [
-                    "'appsheet'",
                     "'automl_gs'"
                 ]
             ],
@@ -52,25 +51,21 @@
         "benchmarks.AutismScreeningSuite.track_precision": {
             "params": [
                 [
-                    "'appsheet'",
                     "'automl_gs'"
                 ]
             ],
             "result": [
-                null,
                 1.0
             ]
         },
         "benchmarks.AutismScreeningSuite.track_recall": {
             "params": [
                 [
-                    "'appsheet'",
                     "'automl_gs'"
                 ]
             ],
             "result": [
-                1.0,
-                null
+                1.0
             ]
         },
         "benchmarks.MaeComparison.track_appsheet": {
@@ -107,7 +102,9 @@
                     "'autism-screening'"
                 ]
             ],
-            "result": null
+            "result": [
+                1.0
+            ]
         },
         "benchmarks.RecallComparison.track_appsheet": {
             "params": [
@@ -125,7 +122,9 @@
                     "'autism-screening'"
                 ]
             ],
-            "result": null
+            "result": [
+                1.0
+            ]
         },
         "benchmarks.TrainingTimeComparison.track_appsheet": {
             "params": [
@@ -144,22 +143,22 @@
                 ]
             ],
             "result": [
-                6.377071380615234
+                9.646679878234863
             ]
         }
     },
     "started_at": {
-        "benchmarks.AbsenteeismSuite.track_mae": 1555974229016,
-        "benchmarks.AutismScreeningSuite.track_precision": 1555974233949,
-        "benchmarks.AutismScreeningSuite.track_recall": 1555974281849,
+        "benchmarks.AbsenteeismSuite.track_mae": 1555993067968,
+        "benchmarks.AutismScreeningSuite.track_precision": 1555993078310,
+        "benchmarks.AutismScreeningSuite.track_recall": 1555995695337,
         "benchmarks.MaeComparison.track_appsheet": 1555974282610,
-        "benchmarks.MaeComparison.track_automl_gs": 1555974314722,
+        "benchmarks.MaeComparison.track_automl_gs": 1555995695788,
         "benchmarks.PrecisionComparison.track_appsheet": 1555974315068,
-        "benchmarks.PrecisionComparison.track_automl_gs": 1555974315395,
+        "benchmarks.PrecisionComparison.track_automl_gs": 1555995696438,
         "benchmarks.RecallComparison.track_appsheet": 1555974315735,
-        "benchmarks.RecallComparison.track_automl_gs": 1555974316053,
+        "benchmarks.RecallComparison.track_automl_gs": 1555995696866,
         "benchmarks.TrainingTimeComparison.track_appsheet": 1555974316288,
-        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555974316609
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1555995697320
     },
     "version": 1
 }

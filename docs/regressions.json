@@ -1,1 +1,1 @@
-{"regressions": [["benchmarks.TrainingTimeComparison.track_appsheet('absenteeism')", "graphs\\arch-AMD64\\branch-master\\cpu\\machine-DESKTOP-DF1QLOM\\os-Windows 10\\python-3.5\\ram\\requests-null\\benchmarks.TrainingTimeComparison.track_appsheet.json", {}, 0, 37.29293775558472, 23.49214768409729, [[39607, 39616, 23.49214768409729, 37.29293775558472]]]]}
+{"regressions": []}

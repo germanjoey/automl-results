@@ -1,0 +1,116 @@
+{
+    "benchmark_version": {
+        "benchmarks.AbsenteeismSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.AutismScreeningSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.AutismScreeningSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.MaeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.PrecisionComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.RecallComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "commit_hash": "6f7d99198af934c6c9e6679c5633bd5a0d66ee97",
+    "date": 1556042944000,
+    "ended_at": {
+        "benchmarks.AbsenteeismSuite.track_mae": 1556073541024,
+        "benchmarks.AutismScreeningSuite.track_precision": 1556073542457,
+        "benchmarks.AutismScreeningSuite.track_recall": 1556073543023,
+        "benchmarks.MaeComparison.track_automl_gs": 1556073543553,
+        "benchmarks.PrecisionComparison.track_automl_gs": 1556073543973,
+        "benchmarks.RecallComparison.track_automl_gs": 1556073544506,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1556073545030
+    },
+    "env_name": "virtualenv-py3.5",
+    "params": {
+        "arch": "AMD64",
+        "cpu": "",
+        "machine": "DESKTOP-DF1QLOM",
+        "os": "Windows 10",
+        "python": "3.5",
+        "ram": ""
+    },
+    "profiles": {},
+    "python": "3.5",
+    "requirements": {},
+    "results": {
+        "benchmarks.AbsenteeismSuite.track_mae": {
+            "params": [
+                [
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                4.449525147944957
+            ]
+        },
+        "benchmarks.AutismScreeningSuite.track_precision": {
+            "params": [
+                [
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                1.0
+            ]
+        },
+        "benchmarks.AutismScreeningSuite.track_recall": {
+            "params": [
+                [
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                1.0
+            ]
+        },
+        "benchmarks.MaeComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'absenteeism'"
+                ]
+            ],
+            "result": [
+                4.449525147944957
+            ]
+        },
+        "benchmarks.PrecisionComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'autism-screening'"
+                ]
+            ],
+            "result": [
+                1.0
+            ]
+        },
+        "benchmarks.RecallComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'autism-screening'"
+                ]
+            ],
+            "result": [
+                1.0
+            ]
+        },
+        "benchmarks.TrainingTimeComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'autism-screening'"
+                ]
+            ],
+            "result": [
+                2609.7796580791473
+            ]
+        }
+    },
+    "started_at": {
+        "benchmarks.AbsenteeismSuite.track_mae": 1556071819513,
+        "benchmarks.AutismScreeningSuite.track_precision": 1556073541939,
+        "benchmarks.AutismScreeningSuite.track_recall": 1556073542460,
+        "benchmarks.MaeComparison.track_automl_gs": 1556073543027,
+        "benchmarks.PrecisionComparison.track_automl_gs": 1556073543556,
+        "benchmarks.RecallComparison.track_automl_gs": 1556073543977,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1556073544509
+    },
+    "version": 1
+}

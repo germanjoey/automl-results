@@ -7,6 +7,62 @@
         ],
         "params": [
             [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.AccMultiClassificationComparison.track_appsheet": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.AccMultiClassificationComparison.track_appsheet",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'nps'",
+                "'paper-reviews'",
+                "'user-knowledge-modeling'",
+                "'wine'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.AccMultiClassificationComparison.track_automl_gs": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.AccMultiClassificationComparison.track_automl_gs",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'nps'",
+                "'paper-reviews'",
+                "'user-knowledge-modeling'",
+                "'wine'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.AirflowSelfNoiseSuite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.AirflowSelfNoiseSuite.track_mae",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
                 "'automl_gs'"
             ]
         ],
@@ -23,6 +79,7 @@
         ],
         "params": [
             [
+                "'appsheet'",
                 "'automl_gs'"
             ]
         ],
@@ -39,6 +96,7 @@
         ],
         "params": [
             [
+                "'appsheet'",
                 "'automl_gs'"
             ]
         ],
@@ -47,15 +105,194 @@
         "unit": "unit",
         "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
     },
-    "benchmarks.MaeComparison.track_automl_gs": {
+    "benchmarks.AutoMpgSuite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.AutoMpgSuite.track_mae",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.ChurnPredictionSuite.track_precision": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.ChurnPredictionSuite.track_precision",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.ChurnPredictionSuite.track_recall": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.ChurnPredictionSuite.track_recall",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.ConcreteCalculatorSuite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.ConcreteCalculatorSuite.track_mae",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.DressesSalesSuite.track_precision": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.DressesSalesSuite.track_precision",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.DressesSalesSuite.track_recall": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.DressesSalesSuite.track_recall",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.EnergyEfficiency1Suite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.EnergyEfficiency1Suite.track_mae",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.EnergyEfficiency2Suite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.EnergyEfficiency2Suite.track_mae",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.HeartDiseaseSuite.track_precision": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.HeartDiseaseSuite.track_precision",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.HeartDiseaseSuite.track_recall": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.HeartDiseaseSuite.track_recall",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.MaeRegressionComparison.track_appsheet": {
         "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.MaeComparison.track_automl_gs",
+        "name": "benchmarks.MaeRegressionComparison.track_appsheet",
         "param_names": [
             "testcase"
         ],
         "params": [
             [
-                "'absenteeism'"
+                "'absenteeism'",
+                "'airflow-self-noise'",
+                "'auto-mpg'",
+                "'concrete-calculator'",
+                "'energy-efficiency-1'",
+                "'energy-efficiency-2'",
+                "'student-performance-math'",
+                "'student-performance-por'",
+                "'wine-quality'",
+                "'yacht-hydrodynamics'"
             ]
         ],
         "timeout": 60.0,
@@ -63,15 +300,24 @@
         "unit": "unit",
         "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
     },
-    "benchmarks.PrecisionComparison.track_automl_gs": {
+    "benchmarks.MaeRegressionComparison.track_automl_gs": {
         "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.PrecisionComparison.track_automl_gs",
+        "name": "benchmarks.MaeRegressionComparison.track_automl_gs",
         "param_names": [
             "testcase"
         ],
         "params": [
             [
-                "'autism-screening'"
+                "'absenteeism'",
+                "'airflow-self-noise'",
+                "'auto-mpg'",
+                "'concrete-calculator'",
+                "'energy-efficiency-1'",
+                "'energy-efficiency-2'",
+                "'student-performance-math'",
+                "'student-performance-por'",
+                "'wine-quality'",
+                "'yacht-hydrodynamics'"
             ]
         ],
         "timeout": 60.0,
@@ -79,15 +325,53 @@
         "unit": "unit",
         "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
     },
-    "benchmarks.RecallComparison.track_automl_gs": {
+    "benchmarks.NpsSuite.track_acc": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.NpsSuite.track_acc",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.PaperReviewsSuite.track_acc": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.PaperReviewsSuite.track_acc",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.PrecisionBinaryClassificationComparison.track_appsheet": {
         "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.RecallComparison.track_automl_gs",
+        "name": "benchmarks.PrecisionBinaryClassificationComparison.track_appsheet",
         "param_names": [
             "testcase"
         ],
         "params": [
             [
-                "'autism-screening'"
+                "'autism-screening'",
+                "'churn-prediction'",
+                "'dresses-sales'",
+                "'heart-disease'",
+                "'titanic'"
             ]
         ],
         "timeout": 60.0,
@@ -95,21 +379,329 @@
         "unit": "unit",
         "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
     },
-    "benchmarks.TrainingTimeComparison.track_automl_gs": {
+    "benchmarks.PrecisionBinaryClassificationComparison.track_automl_gs": {
         "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
-        "name": "benchmarks.TrainingTimeComparison.track_automl_gs",
+        "name": "benchmarks.PrecisionBinaryClassificationComparison.track_automl_gs",
         "param_names": [
             "testcase"
         ],
         "params": [
             [
-                "'autism-screening'"
+                "'autism-screening'",
+                "'churn-prediction'",
+                "'dresses-sales'",
+                "'heart-disease'",
+                "'titanic'"
             ]
         ],
         "timeout": 60.0,
         "type": "track",
         "unit": "unit",
         "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.RecallBinaryClassificationComparison.track_appsheet": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.RecallBinaryClassificationComparison.track_appsheet",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'autism-screening'",
+                "'churn-prediction'",
+                "'dresses-sales'",
+                "'heart-disease'",
+                "'titanic'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.RecallBinaryClassificationComparison.track_automl_gs": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.RecallBinaryClassificationComparison.track_automl_gs",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'autism-screening'",
+                "'churn-prediction'",
+                "'dresses-sales'",
+                "'heart-disease'",
+                "'titanic'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.StudentPerformanceMathSuite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.StudentPerformanceMathSuite.track_mae",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.StudentPerformancePorSuite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.StudentPerformancePorSuite.track_mae",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.TitanicSuite.track_precision": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.TitanicSuite.track_precision",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.TitanicSuite.track_recall": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.TitanicSuite.track_recall",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.TrainingTimeBinaryClassificationComparison.track_appsheet": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.TrainingTimeBinaryClassificationComparison.track_appsheet",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'autism-screening'",
+                "'churn-prediction'",
+                "'dresses-sales'",
+                "'heart-disease'",
+                "'titanic'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.TrainingTimeBinaryClassificationComparison.track_automl_gs": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.TrainingTimeBinaryClassificationComparison.track_automl_gs",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'autism-screening'",
+                "'churn-prediction'",
+                "'dresses-sales'",
+                "'heart-disease'",
+                "'titanic'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.TrainingTimeMultiClassificationComparison.track_appsheet": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.TrainingTimeMultiClassificationComparison.track_appsheet",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'nps'",
+                "'paper-reviews'",
+                "'user-knowledge-modeling'",
+                "'wine'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.TrainingTimeMultiClassificationComparison.track_automl_gs": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.TrainingTimeMultiClassificationComparison.track_automl_gs",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'nps'",
+                "'paper-reviews'",
+                "'user-knowledge-modeling'",
+                "'wine'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.TrainingTimeRegressionComparison.track_appsheet": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.TrainingTimeRegressionComparison.track_appsheet",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'absenteeism'",
+                "'airflow-self-noise'",
+                "'auto-mpg'",
+                "'concrete-calculator'",
+                "'energy-efficiency-1'",
+                "'energy-efficiency-2'",
+                "'student-performance-math'",
+                "'student-performance-por'",
+                "'wine-quality'",
+                "'yacht-hydrodynamics'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.TrainingTimeRegressionComparison.track_automl_gs": {
+        "code": "class <locals>:\n    def metric_source_getter(self, testcase_name):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.TrainingTimeRegressionComparison.track_automl_gs",
+        "param_names": [
+            "testcase"
+        ],
+        "params": [
+            [
+                "'absenteeism'",
+                "'airflow-self-noise'",
+                "'auto-mpg'",
+                "'concrete-calculator'",
+                "'energy-efficiency-1'",
+                "'energy-efficiency-2'",
+                "'student-performance-math'",
+                "'student-performance-por'",
+                "'wine-quality'",
+                "'yacht-hydrodynamics'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+    },
+    "benchmarks.UserKnowledgeModelingSuite.track_acc": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.UserKnowledgeModelingSuite.track_acc",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.WineQualitySuite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.WineQualitySuite.track_mae",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.WineSuite.track_acc": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.WineSuite.track_acc",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
+    },
+    "benchmarks.YachtHydrodynamicsSuite.track_mae": {
+        "code": "class <locals>:\n    def testcase_metric_getter(self, source_type):\n        return AutoMLTrainers[source_type].get_metric_value(testcase_name, metric_name)",
+        "name": "benchmarks.YachtHydrodynamicsSuite.track_mae",
+        "param_names": [
+            "source"
+        ],
+        "params": [
+            [
+                "'appsheet'",
+                "'automl_gs'"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "track",
+        "unit": "unit",
+        "version": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
     },
     "version": 2
 }

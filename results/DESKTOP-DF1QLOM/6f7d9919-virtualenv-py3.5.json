@@ -1,23 +1,93 @@
 {
     "benchmark_version": {
         "benchmarks.AbsenteeismSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.AccMultiClassificationComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.AccMultiClassificationComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
         "benchmarks.AutismScreeningSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
         "benchmarks.AutismScreeningSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.AutoMpgSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.ChurnPredictionSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.ChurnPredictionSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.ConcreteCalculatorSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.DressesSalesSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.DressesSalesSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.EnergyEfficiency1Suite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.EnergyEfficiency2Suite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.HeartDiseaseSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.HeartDiseaseSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
         "benchmarks.MaeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.MaeRegressionComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.MaeRegressionComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.NpsSuite.track_acc": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.PaperReviewsSuite.track_acc": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.PrecisionBinaryClassificationComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.PrecisionBinaryClassificationComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
         "benchmarks.PrecisionComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.RecallBinaryClassificationComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.RecallBinaryClassificationComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
         "benchmarks.RecallComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
-        "benchmarks.TrainingTimeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d"
+        "benchmarks.StudentPerformanceMathSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.StudentPerformancePorSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.TitanicSuite.track_precision": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.TitanicSuite.track_recall": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.TrainingTimeBinaryClassificationComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeBinaryClassificationComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeMultiClassificationComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeMultiClassificationComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeRegressionComparison.track_appsheet": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.TrainingTimeRegressionComparison.track_automl_gs": "ca19f7e054fd40eff915264b81f647c140c3973b2cc29bf341f50109f04cf41d",
+        "benchmarks.UserKnowledgeModelingSuite.track_acc": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.WineQualitySuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.WineSuite.track_acc": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67",
+        "benchmarks.YachtHydrodynamicsSuite.track_mae": "f82a5a557ef748f4536788057359d80529ea5290f63edb5b55f24f181b587e67"
     },
     "commit_hash": "6f7d99198af934c6c9e6679c5633bd5a0d66ee97",
     "date": 1556042944000,
     "ended_at": {
-        "benchmarks.AbsenteeismSuite.track_mae": 1556073541024,
-        "benchmarks.AutismScreeningSuite.track_precision": 1556073542457,
-        "benchmarks.AutismScreeningSuite.track_recall": 1556073543023,
+        "benchmarks.AbsenteeismSuite.track_mae": 1556691555840,
+        "benchmarks.AccMultiClassificationComparison.track_appsheet": 1556691557127,
+        "benchmarks.AccMultiClassificationComparison.track_automl_gs": 1556691558398,
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1556691559143,
+        "benchmarks.AutismScreeningSuite.track_precision": 1556691559884,
+        "benchmarks.AutismScreeningSuite.track_recall": 1556691560530,
+        "benchmarks.AutoMpgSuite.track_mae": 1556691561265,
+        "benchmarks.ChurnPredictionSuite.track_precision": 1556691561907,
+        "benchmarks.ChurnPredictionSuite.track_recall": 1556691562650,
+        "benchmarks.ConcreteCalculatorSuite.track_mae": 1556691563293,
+        "benchmarks.DressesSalesSuite.track_precision": 1556691563929,
+        "benchmarks.DressesSalesSuite.track_recall": 1556691564566,
+        "benchmarks.EnergyEfficiency1Suite.track_mae": 1556691565314,
+        "benchmarks.EnergyEfficiency2Suite.track_mae": 1556691566068,
+        "benchmarks.HeartDiseaseSuite.track_precision": 1556691566712,
+        "benchmarks.HeartDiseaseSuite.track_recall": 1556691567361,
         "benchmarks.MaeComparison.track_automl_gs": 1556073543553,
+        "benchmarks.MaeRegressionComparison.track_appsheet": 1556691570523,
+        "benchmarks.MaeRegressionComparison.track_automl_gs": 1556691574128,
+        "benchmarks.NpsSuite.track_acc": 1556691574768,
+        "benchmarks.PaperReviewsSuite.track_acc": 1556691575512,
+        "benchmarks.PrecisionBinaryClassificationComparison.track_appsheet": 1556691577114,
+        "benchmarks.PrecisionBinaryClassificationComparison.track_automl_gs": 1556691579229,
         "benchmarks.PrecisionComparison.track_automl_gs": 1556073543973,
+        "benchmarks.RecallBinaryClassificationComparison.track_appsheet": 1556691580822,
+        "benchmarks.RecallBinaryClassificationComparison.track_automl_gs": 1556691582603,
         "benchmarks.RecallComparison.track_automl_gs": 1556073544506,
-        "benchmarks.TrainingTimeComparison.track_automl_gs": 1556073545030
+        "benchmarks.StudentPerformanceMathSuite.track_mae": 1556691583358,
+        "benchmarks.StudentPerformancePorSuite.track_mae": 1556691584104,
+        "benchmarks.TitanicSuite.track_precision": 1556691584744,
+        "benchmarks.TitanicSuite.track_recall": 1556691585387,
+        "benchmarks.TrainingTimeBinaryClassificationComparison.track_appsheet": 1556691586979,
+        "benchmarks.TrainingTimeBinaryClassificationComparison.track_automl_gs": 1556691588669,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1556073545030,
+        "benchmarks.TrainingTimeMultiClassificationComparison.track_appsheet": 1556691590158,
+        "benchmarks.TrainingTimeMultiClassificationComparison.track_automl_gs": 1556691591740,
+        "benchmarks.TrainingTimeRegressionComparison.track_appsheet": 1556691594823,
+        "benchmarks.TrainingTimeRegressionComparison.track_automl_gs": 1556691598328,
+        "benchmarks.UserKnowledgeModelingSuite.track_acc": 1556691599077,
+        "benchmarks.WineQualitySuite.track_mae": 1556691599721,
+        "benchmarks.WineSuite.track_acc": 1556691600355,
+        "benchmarks.YachtHydrodynamicsSuite.track_mae": 1556691600991
     },
     "env_name": "virtualenv-py3.5",
     "params": {
@@ -35,31 +105,201 @@
         "benchmarks.AbsenteeismSuite.track_mae": {
             "params": [
                 [
+                    "'appsheet'",
                     "'automl_gs'"
                 ]
             ],
             "result": [
+                3.8552355250796757,
                 4.449525147944957
+            ]
+        },
+        "benchmarks.AccMultiClassificationComparison.track_appsheet": {
+            "params": [
+                [
+                    "'nps'",
+                    "'paper-reviews'",
+                    "'user-knowledge-modeling'",
+                    "'wine'"
+                ]
+            ],
+            "result": [
+                0.6666666683943375,
+                0.7804878048780488,
+                0.9615384340286255,
+                1.0
+            ]
+        },
+        "benchmarks.AccMultiClassificationComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'nps'",
+                    "'paper-reviews'",
+                    "'user-knowledge-modeling'",
+                    "'wine'"
+                ]
+            ],
+            "result": [
+                0.5219512195121951,
+                0.8442622950819673,
+                0.9743589743589745,
+                1.0
+            ]
+        },
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                4.5573069117716605,
+                3.7958809229814814
             ]
         },
         "benchmarks.AutismScreeningSuite.track_precision": {
             "params": [
                 [
+                    "'appsheet'",
                     "'automl_gs'"
                 ]
             ],
             "result": [
+                0.95,
                 1.0
             ]
         },
         "benchmarks.AutismScreeningSuite.track_recall": {
             "params": [
                 [
+                    "'appsheet'",
                     "'automl_gs'"
                 ]
             ],
             "result": [
+                1.0,
                 1.0
+            ]
+        },
+        "benchmarks.AutoMpgSuite.track_mae": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                2.630856685149364,
+                2.17774829864502
+            ]
+        },
+        "benchmarks.ChurnPredictionSuite.track_precision": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.8541666666666666,
+                0.9420889348500516
+            ]
+        },
+        "benchmarks.ChurnPredictionSuite.track_recall": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.7592592592592593,
+                0.6905827787860456
+            ]
+        },
+        "benchmarks.ConcreteCalculatorSuite.track_mae": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                7.354617081799553,
+                10.233697015212963
+            ]
+        },
+        "benchmarks.DressesSalesSuite.track_precision": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.4473684210526316,
+                0.5716501240694789
+            ]
+        },
+        "benchmarks.DressesSalesSuite.track_recall": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.9444444444444444,
+                0.5528188286808977
+            ]
+        },
+        "benchmarks.EnergyEfficiency1Suite.track_mae": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                2.549680010064856,
+                1.7529308504046817
+            ]
+        },
+        "benchmarks.EnergyEfficiency2Suite.track_mae": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                2.4776498373452718,
+                1.3987778264825992
+            ]
+        },
+        "benchmarks.HeartDiseaseSuite.track_precision": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.7391304347826086,
+                0.8164556962025317
+            ]
+        },
+        "benchmarks.HeartDiseaseSuite.track_recall": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.8947368421052632,
+                0.8090243902439025
             ]
         },
         "benchmarks.MaeComparison.track_automl_gs": {
@@ -72,6 +312,122 @@
                 4.449525147944957
             ]
         },
+        "benchmarks.MaeRegressionComparison.track_appsheet": {
+            "params": [
+                [
+                    "'absenteeism'",
+                    "'airflow-self-noise'",
+                    "'auto-mpg'",
+                    "'concrete-calculator'",
+                    "'energy-efficiency-1'",
+                    "'energy-efficiency-2'",
+                    "'student-performance-math'",
+                    "'student-performance-por'",
+                    "'wine-quality'",
+                    "'yacht-hydrodynamics'"
+                ]
+            ],
+            "result": [
+                3.8552355250796757,
+                4.5573069117716605,
+                2.630856685149364,
+                7.354617081799553,
+                2.549680010064856,
+                2.4776498373452718,
+                1.8844806790351867,
+                0.6685541006234976,
+                0.4875065803527832,
+                2.3854258060455322
+            ]
+        },
+        "benchmarks.MaeRegressionComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'absenteeism'",
+                    "'airflow-self-noise'",
+                    "'auto-mpg'",
+                    "'concrete-calculator'",
+                    "'energy-efficiency-1'",
+                    "'energy-efficiency-2'",
+                    "'student-performance-math'",
+                    "'student-performance-por'",
+                    "'wine-quality'",
+                    "'yacht-hydrodynamics'"
+                ]
+            ],
+            "result": [
+                4.449525147944957,
+                3.7958809229814814,
+                2.17774829864502,
+                10.233697015212963,
+                1.7529308504046817,
+                1.3987778264825992,
+                4.42217900259655,
+                1.3589764619484923,
+                0.5111147334178289,
+                2.0546305096533994
+            ]
+        },
+        "benchmarks.NpsSuite.track_acc": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.6666666683943375,
+                0.5219512195121951
+            ]
+        },
+        "benchmarks.PaperReviewsSuite.track_acc": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.7804878048780488,
+                0.8442622950819673
+            ]
+        },
+        "benchmarks.PrecisionBinaryClassificationComparison.track_appsheet": {
+            "params": [
+                [
+                    "'autism-screening'",
+                    "'churn-prediction'",
+                    "'dresses-sales'",
+                    "'heart-disease'",
+                    "'titanic'"
+                ]
+            ],
+            "result": [
+                0.95,
+                0.8541666666666666,
+                0.4473684210526316,
+                0.7391304347826086,
+                0.717391304347826
+            ]
+        },
+        "benchmarks.PrecisionBinaryClassificationComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'autism-screening'",
+                    "'churn-prediction'",
+                    "'dresses-sales'",
+                    "'heart-disease'",
+                    "'titanic'"
+                ]
+            ],
+            "result": [
+                1.0,
+                0.9420889348500516,
+                0.5716501240694789,
+                0.8164556962025317,
+                0.8185328185328185
+            ]
+        },
         "benchmarks.PrecisionComparison.track_automl_gs": {
             "params": [
                 [
@@ -80,6 +436,42 @@
             ],
             "result": [
                 1.0
+            ]
+        },
+        "benchmarks.RecallBinaryClassificationComparison.track_appsheet": {
+            "params": [
+                [
+                    "'autism-screening'",
+                    "'churn-prediction'",
+                    "'dresses-sales'",
+                    "'heart-disease'",
+                    "'titanic'"
+                ]
+            ],
+            "result": [
+                1.0,
+                0.7592592592592593,
+                0.9444444444444444,
+                0.8947368421052632,
+                0.9166666666666666
+            ]
+        },
+        "benchmarks.RecallBinaryClassificationComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'autism-screening'",
+                    "'churn-prediction'",
+                    "'dresses-sales'",
+                    "'heart-disease'",
+                    "'titanic'"
+                ]
+            ],
+            "result": [
+                1.0,
+                0.6905827787860456,
+                0.5528188286808977,
+                0.8090243902439025,
+                0.7222418358340689
             ]
         },
         "benchmarks.RecallComparison.track_automl_gs": {
@@ -92,6 +484,90 @@
                 1.0
             ]
         },
+        "benchmarks.StudentPerformanceMathSuite.track_mae": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                1.8844806790351867,
+                4.42217900259655
+            ]
+        },
+        "benchmarks.StudentPerformancePorSuite.track_mae": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.6685541006234976,
+                1.3589764619484923
+            ]
+        },
+        "benchmarks.TitanicSuite.track_precision": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.717391304347826,
+                0.8185328185328185
+            ]
+        },
+        "benchmarks.TitanicSuite.track_recall": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.9166666666666666,
+                0.7222418358340689
+            ]
+        },
+        "benchmarks.TrainingTimeBinaryClassificationComparison.track_appsheet": {
+            "params": [
+                [
+                    "'autism-screening'",
+                    "'churn-prediction'",
+                    "'dresses-sales'",
+                    "'heart-disease'",
+                    "'titanic'"
+                ]
+            ],
+            "result": [
+                32.047656297683716,
+                43.55696892738342,
+                31.207871198654175,
+                28.1053524017334,
+                27.223865509033203
+            ]
+        },
+        "benchmarks.TrainingTimeBinaryClassificationComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'autism-screening'",
+                    "'churn-prediction'",
+                    "'dresses-sales'",
+                    "'heart-disease'",
+                    "'titanic'"
+                ]
+            ],
+            "result": [
+                2609.7796580791473,
+                2399.239366531372,
+                1567.8775324821472,
+                2765.232954263687,
+                2645.2976908683777
+            ]
+        },
         "benchmarks.TrainingTimeComparison.track_automl_gs": {
             "params": [
                 [
@@ -101,16 +577,187 @@
             "result": [
                 2609.7796580791473
             ]
+        },
+        "benchmarks.TrainingTimeMultiClassificationComparison.track_appsheet": {
+            "params": [
+                [
+                    "'nps'",
+                    "'paper-reviews'",
+                    "'user-knowledge-modeling'",
+                    "'wine'"
+                ]
+            ],
+            "result": [
+                28.66774344444275,
+                30.3750216960907,
+                29.761793851852417,
+                28.168158531188965
+            ]
+        },
+        "benchmarks.TrainingTimeMultiClassificationComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'nps'",
+                    "'paper-reviews'",
+                    "'user-knowledge-modeling'",
+                    "'wine'"
+                ]
+            ],
+            "result": [
+                1141.703991651535,
+                1846.0559742450714,
+                1324.8651053905487,
+                2235.147046804428
+            ]
+        },
+        "benchmarks.TrainingTimeRegressionComparison.track_appsheet": {
+            "params": [
+                [
+                    "'absenteeism'",
+                    "'airflow-self-noise'",
+                    "'auto-mpg'",
+                    "'concrete-calculator'",
+                    "'energy-efficiency-1'",
+                    "'energy-efficiency-2'",
+                    "'student-performance-math'",
+                    "'student-performance-por'",
+                    "'wine-quality'",
+                    "'yacht-hydrodynamics'"
+                ]
+            ],
+            "result": [
+                23.939385414123535,
+                39.72560095787048,
+                30.665636777877808,
+                23.945170402526855,
+                30.47210931777954,
+                23.35370922088623,
+                28.126938819885254,
+                29.535085916519165,
+                32.21105217933655,
+                28.3132061958313
+            ]
+        },
+        "benchmarks.TrainingTimeRegressionComparison.track_automl_gs": {
+            "params": [
+                [
+                    "'absenteeism'",
+                    "'airflow-self-noise'",
+                    "'auto-mpg'",
+                    "'concrete-calculator'",
+                    "'energy-efficiency-1'",
+                    "'energy-efficiency-2'",
+                    "'student-performance-math'",
+                    "'student-performance-por'",
+                    "'wine-quality'",
+                    "'yacht-hydrodynamics'"
+                ]
+            ],
+            "result": [
+                1720.7366738319397,
+                1000.5141520500183,
+                2555.131772994995,
+                1688.6441690921783,
+                1253.6088423728943,
+                1532.7790684700012,
+                1044.400455713272,
+                686.2359955310822,
+                1842.6598403453827,
+                834.8990805149078
+            ]
+        },
+        "benchmarks.UserKnowledgeModelingSuite.track_acc": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.9615384340286255,
+                0.9743589743589745
+            ]
+        },
+        "benchmarks.WineQualitySuite.track_mae": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                0.4875065803527832,
+                0.5111147334178289
+            ]
+        },
+        "benchmarks.WineSuite.track_acc": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                1.0,
+                1.0
+            ]
+        },
+        "benchmarks.YachtHydrodynamicsSuite.track_mae": {
+            "params": [
+                [
+                    "'appsheet'",
+                    "'automl_gs'"
+                ]
+            ],
+            "result": [
+                2.3854258060455322,
+                2.0546305096533994
+            ]
         }
     },
     "started_at": {
-        "benchmarks.AbsenteeismSuite.track_mae": 1556071819513,
-        "benchmarks.AutismScreeningSuite.track_precision": 1556073541939,
-        "benchmarks.AutismScreeningSuite.track_recall": 1556073542460,
+        "benchmarks.AbsenteeismSuite.track_mae": 1556691555101,
+        "benchmarks.AccMultiClassificationComparison.track_appsheet": 1556691555850,
+        "benchmarks.AccMultiClassificationComparison.track_automl_gs": 1556691557134,
+        "benchmarks.AirflowSelfNoiseSuite.track_mae": 1556691558402,
+        "benchmarks.AutismScreeningSuite.track_precision": 1556691559149,
+        "benchmarks.AutismScreeningSuite.track_recall": 1556691559894,
+        "benchmarks.AutoMpgSuite.track_mae": 1556691560535,
+        "benchmarks.ChurnPredictionSuite.track_precision": 1556691561272,
+        "benchmarks.ChurnPredictionSuite.track_recall": 1556691561912,
+        "benchmarks.ConcreteCalculatorSuite.track_mae": 1556691562656,
+        "benchmarks.DressesSalesSuite.track_precision": 1556691563298,
+        "benchmarks.DressesSalesSuite.track_recall": 1556691563935,
+        "benchmarks.EnergyEfficiency1Suite.track_mae": 1556691564570,
+        "benchmarks.EnergyEfficiency2Suite.track_mae": 1556691565320,
+        "benchmarks.HeartDiseaseSuite.track_precision": 1556691566075,
+        "benchmarks.HeartDiseaseSuite.track_recall": 1556691566721,
         "benchmarks.MaeComparison.track_automl_gs": 1556073543027,
+        "benchmarks.MaeRegressionComparison.track_appsheet": 1556691567364,
+        "benchmarks.MaeRegressionComparison.track_automl_gs": 1556691570550,
+        "benchmarks.NpsSuite.track_acc": 1556691574137,
+        "benchmarks.PaperReviewsSuite.track_acc": 1556691574773,
+        "benchmarks.PrecisionBinaryClassificationComparison.track_appsheet": 1556691575516,
+        "benchmarks.PrecisionBinaryClassificationComparison.track_automl_gs": 1556691577117,
         "benchmarks.PrecisionComparison.track_automl_gs": 1556073543556,
+        "benchmarks.RecallBinaryClassificationComparison.track_appsheet": 1556691579233,
+        "benchmarks.RecallBinaryClassificationComparison.track_automl_gs": 1556691580825,
         "benchmarks.RecallComparison.track_automl_gs": 1556073543977,
-        "benchmarks.TrainingTimeComparison.track_automl_gs": 1556073544509
+        "benchmarks.StudentPerformanceMathSuite.track_mae": 1556691582610,
+        "benchmarks.StudentPerformancePorSuite.track_mae": 1556691583368,
+        "benchmarks.TitanicSuite.track_precision": 1556691584109,
+        "benchmarks.TitanicSuite.track_recall": 1556691584747,
+        "benchmarks.TrainingTimeBinaryClassificationComparison.track_appsheet": 1556691585390,
+        "benchmarks.TrainingTimeBinaryClassificationComparison.track_automl_gs": 1556691586987,
+        "benchmarks.TrainingTimeComparison.track_automl_gs": 1556073544509,
+        "benchmarks.TrainingTimeMultiClassificationComparison.track_appsheet": 1556691588676,
+        "benchmarks.TrainingTimeMultiClassificationComparison.track_automl_gs": 1556691590166,
+        "benchmarks.TrainingTimeRegressionComparison.track_appsheet": 1556691591745,
+        "benchmarks.TrainingTimeRegressionComparison.track_automl_gs": 1556691594849,
+        "benchmarks.UserKnowledgeModelingSuite.track_acc": 1556691598335,
+        "benchmarks.WineQualitySuite.track_mae": 1556691599087,
+        "benchmarks.WineSuite.track_acc": 1556691599725,
+        "benchmarks.YachtHydrodynamicsSuite.track_mae": 1556691600358
     },
     "version": 1
 }
